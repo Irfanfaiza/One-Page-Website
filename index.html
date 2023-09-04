@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+<!-- jquery  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="jquery.toTop.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span class="navbar-text">Textile</span><span class="subtitle">Cor</span>
+
+
+      </a></span>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Our Team</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!------  Carousel    ------>
+  <div id="mycarousel" class="container-fluid carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!---- 1 ---->
+      <div class="carousel-item active">
+        <img src="./images/home-1.jpg" class="d-block w-100" alt="...">
+      </div>
+
+      <!---- 2 ---->
+      <div class="carousel-item">
+        <img src="./images/home-2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+
+      <!---- 3 ---->
+      <div class="carousel-item">
+        <img src="./images/home-3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#mycarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mycarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+    </button>
+  </div>
+  </div>
+
+
+
+  <!------------About Section--------------->
+
+  <section id="about" class="about section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="text-warning">About Us</h1>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <img src="./images/about.jpg" alt="" class="img-fluid">
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-8 mt-5">
+          <h1>Who We Are</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, iusto error inventore adipisci ex
+            dolores, quas sunt totam quia ipsum dolor non et enim cum alias velit sequi fugit magni!</p>
+          <button class="btn btn-warning">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!------------Portfolio Section--------------->
+  <section id="portfolio" class="portfolio section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="text-warning">Projects</h1>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/project-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h3 class="card-title  text-uppercase ">Amazing Projects</h3>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="images/project-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h3 class="card-title  text-uppercase ">Amazing Projects</h3>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <img src="./images/project-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h3 class="card-title  text-uppercase ">Amazing Projects</h3>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!------------Service Section--------------->
+
+  <section id="service" class="service section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center ">
+          <h1 class="text-warning">Our Services</h1>
+        </div>
+        <div class="col-lg-4 mb-2">
+          <div class="card">
+
+            <div class="card-body text-center text-uppercase bg-dark text-light mb-3">
+              <i class="fa-solid fa-computer fa-beat-fade"></i>
+              <h5 class="card-title text-uppercase mt-3">Building</h5>
+              <p class="card-text">Some quick example text to build on the card </p>
+              <p class="card-text">Some quick example text to build on the card </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-2">
+          <div class="card">
+
+            <div class="card-body text-center text-uppercase bg-dark text-light mb-3">
+              <i class="fa-solid fa-computer fa-beat-fade"></i>
+              <h5 class="card-title text-uppercase mt-3">Building</h5>
+              <p class="card-text">Some quick example text to build on the card </p>
+              <p class="card-text">Some quick example text to build on the card </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 mb-2">
+          <div class="card">
+
+            <div class="card-body text-center text-uppercase bg-dark text-light mb-3">
+              <i class="fa-solid fa-computer fa-beat-fade"></i>
+              <h5 class="card-title text-uppercase mt-3">Building</h5>
+              <p class="card-text">Some quick example text to build on the card </p>
+              <p class="card-text">Some quick example text to build on the card </p>
+              <a href="#" class="btn btn-warning">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!------------Team Section--------------->
+  <section id="team" class="team section-padding">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 text-center">
+          <h1 class="text-warning"> Our Team</h1>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-2">
+          <div class="card text-center">
+            <img src="./images/team-1.jpg" class=" img-fluid rounded-circle"   alt=" ..">
+            <div class="card-body">
+              <h5 class="card-title">John</h5>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-instagram"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-linkedin-in"></i></li>
+              </ul>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-2">
+          <div class="card text-center">
+            <img src="./images/team-2.jpg" class=" img-fluid rounded-circle " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">John</h5>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-instagram"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-linkedin-in"></i></li>
+              </ul>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-2">
+          <div class="card text-center">
+              <img src="images/team-3.jpg" alt="" class="img-fluid rounded-circle">
+            <div class="card-body">
+              <h5 class="card-title">John</h5>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-instagram"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-linkedin-in"></i></li>
+              </ul>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 mb-2">
+          <div class="card text-center">
+            <img src="./images/team-4.jpg" class=" img-fluid rounded-circle " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">John</h5>
+              <p class="card-text">Some quick example text to build on the card title </p>
+              <ul class="list-inline">
+                <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-instagram"></i></li>
+                <li class="list-inline-item"><i class="fa-brands fa-linkedin-in"></i></li>
+              </ul>             
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+<!-- footer -->
+  <section id="footer" class="bg-dark py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              Contact Us
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Our store</li>
+              <li class="list-group-item">Find us on Google Playstore</li>
+              <li class="list-group-item">
+                <ul class="list-inline">
+                  <li class="list-inline-item"><i class="fa-brands fa-facebook"></i></li>
+                  <li class="list-inline-item"><i class="fa-brands fa-twitter"></i></li>
+                  <li class="list-inline-item"><i class="fa-brands fa-instagram"></i></li>
+                  <li class="list-inline-item"><i class="fa-brands fa-linkedin-in"></i></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              Our Services
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Construction</li>
+              <li class="list-group-item">Interior Designing</li>
+              <li class="list-group-item">Maintenance</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14466.136769377172!2d67.0652637!3d24.9819581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e584b891c3%3A0x29b2cbc198ba2dbd!2sAptech%20Computer%20Education%20North%20Karachi%20Center!5e0!3m2!1sen!2s!4v1687501354308!5m2!1sen!2s" width="250" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-light text-center" >
+          <p>Copyright @2023</p>
+          <a class="to-top">Top &uarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+<script>
+  $(document).ready(function (){
+    $('.to-top').click(function(){
+      $('.to-top').toTop();    
+    })    
+  })
+</script>
+
+</body>
+</html>

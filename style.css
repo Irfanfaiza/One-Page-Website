@@ -1,0 +1,33 @@
+.navbar-nav .nav-item{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.navbar-brand .navbar-text{
+    font-size: 28px;
+    font-weight: 500;
+    color: rgba(187, 106, 74, 0.945);
+    text-transform: uppercase;
+}
+.subtitle{
+    margin-left: 4px;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(236, 197, 87);
+    text-transform: uppercase;
+}
+.section-padding{
+    padding: 100px 0px;
+}
+.fa-solid{
+    font-weight: bolder;
+    font-size: 70px;
+}
+.fa-brands{
+    font-size: 26px;
+}
+#teamimg{
+    width: 100px;
+    height: 100px;
+   
+}
